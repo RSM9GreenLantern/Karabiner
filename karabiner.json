@@ -522,7 +522,7 @@
                     {
                         "description": "Shift(LeftCommand): Option Arrow Keys",
                         "manipulators": [
-                        {
+                            {
                                 "from": {
                                     "key_code": "d",
                                     "modifiers": {
@@ -596,7 +596,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "k",
+                                    "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command"
@@ -606,7 +606,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow",
+                                        "key_code": "right_arrow",
                                         "modifiers": "right_option"
                                     }
                                 ],
@@ -614,7 +614,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "l",
+                                    "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command"
@@ -650,7 +650,7 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "quote",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "left_command"
@@ -660,7 +660,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "n",
+                                        "key_code": "left_arrow",
                                         "modifiers": "right_option"
                                     }
                                 ],
@@ -671,7 +671,7 @@
                     {
                         "description": "Tab and BkSlsh(LeftOption): Copy Paste FlyCut, Arrows",
                         "manipulators": [
-                        {
+                            {
                                 "from": {
                                     "key_code": "q",
                                     "modifiers": {
